@@ -26,7 +26,7 @@ variables:
   - name: storage_accounts
     value: "femiterastore"
   - name: blob_storage
-    value: terracon
+    value: terracon2
   - name: state_file
     value: tf-statefile-hub.state
   - name: sa-resource_group
