@@ -9,7 +9,7 @@ trigger: none
 resources:
   pipelines:
   - pipeline: "HubDestroy"
-    source: "SpokeDestroy)"
+    source: "SpokeDestroy"
     trigger: 
       branches:
       - master
