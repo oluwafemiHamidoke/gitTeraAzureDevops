@@ -13,8 +13,8 @@ trigger: none
 
 resources:
   pipelines:
-  - pipeline: "ADO-Terraform-IAC (Peer Deploy)"
-    source: "ADO-Terraform-IAC (Spoke Deploy)"
+  - pipeline: "PeerDeploy)"
+    source: "SpokeDeploy)"
     trigger: 
       branches:
       - master
@@ -33,7 +33,7 @@ variables:
   - name: storage_accounts
     value: "femiterastore"
   - name: blob_storage
-    value: terracon
+    value: terracon2
   - name: state_file
     value: tf-statefile-peering.state
   - name: sa-resource_group
