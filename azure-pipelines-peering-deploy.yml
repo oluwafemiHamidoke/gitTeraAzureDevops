@@ -13,8 +13,8 @@ trigger: none
 
 resources:
   pipelines:
-  - pipeline: "PeerDeploy)"
-    source: "SpokeDeploy)"
+  - pipeline: "PeerDeploy"
+    source: "SpokeDeploy"
     trigger: 
       branches:
       - master
